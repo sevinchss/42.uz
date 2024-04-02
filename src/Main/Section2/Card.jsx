@@ -7,7 +7,7 @@ export const Card = ({img,title,text,en, ru, uz}) => {
   const { language } = useContext(LanguageContext);
   return (
     <>
-     <div class={`relative overflow-hidden rounded-lg border y  p-2 cursor-pointer ${ThemeChanger(" border-white", "bg-transparent border-[#1E293B] hover:text-[#1E293B]")}  hover:bg-[#f1f5f9] hover:shadow-lg transition-all duration-200 ease-in-out`}>
+     <div class={`relative overflow-hidden rounded-lg border y  p-2 cursor-pointer ${ThemeChanger(" border-white hover:bg-[#f1f5f9] hover:shadow-lg", " border-[#1E293B] hover:text-white hover:bg-[#1e293b]")}   transition-all duration-200 ease-in-out`}>
             <div class="flex flex-col gap-3 justify-between rounded-md p-6">
               <img
                 alt="team"
@@ -16,7 +16,7 @@ export const Card = ({img,title,text,en, ru, uz}) => {
                 height="200"
                 decoding="async"
                 data-nimg="1"
-                class="w-20 h-20 dark:filter dark:invert-[0.9]"
+                class={`w-20 h-20  ${ThemeChanger("filter invert-0", "filter invert-[0.9]")}`}
                 style={{color:"transparent"}}
               src={img}
               />

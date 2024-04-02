@@ -1,7 +1,13 @@
 import React from "react";
 import headsImg from "./images/heads.svg";
 import person1 from "./images/person1.png";
+import person2 from "./images/person2.jpg";
+import person3 from "./images/person3.jpg";
+import person4 from "./images/person4.jpg";
 import company1 from "./images/company.png";
+import company2 from "./images/yandex.png";
+import company3 from "./images/google.png";
+import company4 from "./images/ericsson.png";
 import Slider from "react-slick";
 import LanguageChanger from "../../Utils/languageChanger";
 export const Section5 = () => {
@@ -51,12 +57,25 @@ export const Section5 = () => {
       img: person1,
     },
     {
-      name: "Shukhrat Mirrakhimov",
-      company: "Backend Dev",
-      companyImg: company1,
-      description:
-        "I'm so excited to announce that I will be joining Google Assistant team at Google Zürich as a STEP Intern this summer.    I have always been so curious about working at Google and now I am super excited ",
-      img: person1,
+      name: "Mirvohid Azimov",
+      company: "Software Engineer Intern",
+      companyImg: company2,
+      description: "I'm starting a new position as a Software Engineer Intern at Yandex! Also, my special thanks to Azimjon Pulatov and all YBKY team members for creating a pleasant community to enjoy coding!",
+      img: person2,
+    },
+    {
+      name: "Javokhirbek Khaydaraliev",
+      company: "STEP Intern",
+      companyImg: company3,
+      description: "I'm starting a new position as a Software Engineer Intern at Yandex! Also, my special thanks to Azimjon Pulatov and all YBKY team members for creating a pleasant community to enjoy coding!",
+      img: person3,
+    },
+    {
+      name: "Begnazar Akhmadjonov",
+      company: "Student Developer",
+      companyImg: company4,
+      description: "I am thrilled to announce that I have embarked on a new journey as a Student Developer at Ericsson. Additionally, I am immensely grateful to Azimjon Pulatov and Mukhammadyusuf S. for providing me wit",
+      img: person4,
     },
   ];
   return (

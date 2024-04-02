@@ -1,5 +1,6 @@
 import React from "react";
 import LanguageChanger from "../../Utils/languageChanger";
+import ThemeChanger from "../../Utils/ThemeChanger";
 
 export const Footer = () => {
   return (
@@ -50,7 +51,7 @@ export const Footer = () => {
         </nav>
         <div class="mt-10 flex justify-center space-x-10">
           <a
-            class="text-[#02081799] hover:text-black"
+            class={`text-[#02081799] ${ThemeChanger("text-[#02081799] hover:text-black","text-[#555A64] hover:text-white")} hover:text-black`}
             target="_blank"
             href="https://instagram.com/qirikki"
           >
@@ -69,7 +70,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            class="text-[#02081799] hover:text-black"
+            class={`text-[#02081799] ${ThemeChanger("text-[#02081799] hover:text-black","text-[#555A64] hover:text-white")} hover:text-black`}
             target="_blank"
             href="https://t.me/qirikki"
           >
@@ -88,7 +89,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            class="text-[#02081799] hover:text-black"
+            class={`text-[#02081799] ${ThemeChanger("text-[#02081799] hover:text-black","text-[#555A64] hover:text-white")} hover:text-black`}
             target="_blank"
             href="https://twitter.com/@qirqikki"
           >
@@ -103,7 +104,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            class="text-[#02081799] hover:text-black"
+            class={`text-[#02081799] ${ThemeChanger("text-[#02081799] hover:text-black","text-[#555A64] hover:text-white")} hover:text-black`}
             target="_blank"
             href="https://github.com/42uz"
           >
@@ -122,7 +123,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            class="text-[#02081799] hover:text-black"
+            class={`text-[#02081799] ${ThemeChanger("text-[#02081799] hover:text-black","text-[#555A64] hover:text-white")} hover:text-black`}
             target="_blank"
             href="https://youtube.com/@qirikki"
           >
@@ -141,7 +142,7 @@ export const Footer = () => {
             </svg>
           </a>
         </div>
-        <p class="mt-10 text-center text-xs leading-5 text-[#02081799]">
+        <p class="mt-10 text-center text-xs leading-5">
           © 2023 QIRIKKI LLC. Barcha huquqlar himoyalangan.
         </p>
         <div class="flex items-center justify-center gap-2 text-xs text-foreground/80">

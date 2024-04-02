@@ -203,10 +203,10 @@ const Section2 = () => {
         </div>
         <div class="w-full flex justify-center py-2">
           <a
-            class={`inline-flex items-center justify-center text-sm  ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50   h-12 rounded-md px-8  md:text-xl font-semibold md:py-10"
+            class={`inline-flex  cursor-pointer items-center justify-center text-sm  ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50   h-14 rounded-md px-8  md:text-xl font-semibold md:py-10"
             href="/courses"  ${ThemeChanger(
               "bg-[#0F172A] hover:bg-[#0f172ae6] text-white",
-              "bg-white text-[#0F172A] hover:bg-[#0f172ae6] hover:text-white"
+              "bg-white text-[#0F172A] hover:bg-[#f8fafce6] "
             )}`}
           >
             <img

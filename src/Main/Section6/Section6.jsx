@@ -44,23 +44,14 @@ export const Section6 = () => {
             <span class="border-l"></span>
             <a
               class={`inline-flex items-center justify-center rounded-md text-sm font-medium  transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border   h-10 px-4 py-2"
-              href="/faq" ${ThemeChanger("bg-white hover:bg-[#f1f5f9] hover:text-[#0f172a]", "bg-transparent border-[#1E293B] hover:bg-[#1e293b]")}`}
+              href="/faq" ${ThemeChanger("bg-white hover:bg-[#f1f5f9] hover:text-[#0f172a] border-[#e2e8f0]", "bg-transparent border-[#1E293B] hover:bg-[#1e293b]")}`}
             >
                             {LanguageChanger("Do you have a question?", "Есть вопросы? ", "Savolingiz bormi ")}
 
             </a>
           </div>
-          <img
-            alt="team"
-            loading="lazy"
-            width="620"
-            height="200"
-            decoding="async"
-            data-nimg="1"
-            class="w-full md:w-2/5 mx-auto dark:filter dark:invert-[0.85]"
-            style={{ color: "transparent" }}
-            src={img2}
-          />
+          <img alt="team" loading="lazy" width="620" height="200" decoding="async" data-nimg="1" className={`w-full md:w-2/5 mx-auto ${ThemeChanger("", "filter invert-[0.85]")}`} style={{ color: "transparent" }} src="https://42.uz/home/hero-2.svg" />
+
         </div>
       </section>
     </>
